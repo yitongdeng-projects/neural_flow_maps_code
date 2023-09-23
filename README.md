@@ -5,7 +5,7 @@ Our paper can be found at: [Coming Soon].
 
 Video results can be found at: [Coming Soon].
 
-## Environment
+## Installation
 Our code is tested on `Windows 11` with `CUDA 11.8`, `Python 3.10.9`, `PyTorch 2.0.1`, and `Taichi 1.6.0`.
 
 To set up the environment, first create a conda environment:
@@ -33,7 +33,7 @@ Hyperparameters can be tuned by changing the values in the file `hyperparameters
 
 ## Visualization
 
-The results will be stored in `logs/[exp_name]/vtks`. We recommend using ParaView to load these `.vti` files as a sequence and visualize them with volume.
+The results will be stored in `logs/[exp_name]/vtks`. We recommend using ParaView to load these `.vti` files as a sequence and visualize them by selecting `Volume` in the `Representation` drop-down menu.
 
 ## Bibliography
 If you find our paper or code helpful, consider citing:
