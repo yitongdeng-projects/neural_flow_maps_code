@@ -16,9 +16,9 @@ exp_name = "four_vortices"
 min_res = (16, 16, 32) # encoder base resolutions
 num_levels = 4 # number of refining levels
 feat_dim = 4 # feature vector size (per anchor vector)
-activate_threshold = 0.04 # smaller means more cells are activated
+activate_threshold = 0.045 # smaller means more cells are activated
 N_iters = 200
 N_batch = 240000
-success_threshold = 1.5e-6 # smaller means later termination
+success_threshold = 2e-6 # smaller means later termination
 num_chunks = 2 # query buffer in chunks (as small as machine memory permits)
 
