@@ -6,13 +6,21 @@ Our paper can be found at: [Coming Soon].
 Video results can be found at: [Coming Soon].
 
 ## Environment
-The environment can be installed by conda via:
+Our code is tested on `Windows 11` with `CUDA 11.8`, `Python 3.10.9`, `PyTorch 2.0.1`, and `Taichi 1.6.0`.
+
+To set up the environment, first create a conda environment:
 ```bash
-conda env create -f environment.yml
+conda create -n "nfm_env" python=3.10.9 ipython
 conda activate nfm_env
 ```
-
-Our code is tested on `Windows 11` with `CUDA 11.8`.
+Then, install PyTorch with:
+```bash
+python -m pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu118
+```
+Finally, install the requirements with:
+```bash
+pip install -r requirements.txt
+```
 
 ## Simulation
 
