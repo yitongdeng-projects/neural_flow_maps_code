@@ -1,5 +1,5 @@
 # [TOG/SIGGRAPH Asia 2023] Fluid Simulation on Neural Flow Maps
-by [Yitong Deng](https://yitongdeng.github.io/), [Hong-Xing Yu](https://kovenyu.com/), Diyang Zhang, [Jiajun Wu](https://jiajunwu.com/), and [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/).
+by [Yitong Deng](https://yitongdeng.github.io/), [Hong-Xing Yu](https://kovenyu.com/), [Diyang Zhang](https://serev99.github.io/), [Jiajun Wu](https://jiajunwu.com/), and [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/).
 
 Our paper and video results can be found at our [project website](https://yitongdeng-projects.github.io/neural_flow_maps_webpage/).
 
